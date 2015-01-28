@@ -1,2 +1,51 @@
 // bower:scss
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.input-medium {
+  padding: 3px;
+}
+
+.trailer-1 {
+  margin-bottom: 12px;
+}
+
+.taskList {
+  list-style: none;
+}
+
+.taskList_task {
+  width: 150px;
+  display: block;
+  margin-bottom: 6px;
+  margin-right: 40px;
+  &:after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+}
+
+.taskList_done {
+  float: right;
+  color: #138A16;
+  border-bottom: 1px solid #138A16;
+  cursor: pointer;
+  margin-left: -40px;
+}
+
+.taskList_taskText {
+  margin-right: 40px;
+  display: block;
+  float: left;
+  width: 115px;
+}
 // endbower
